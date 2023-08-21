@@ -22,7 +22,7 @@ const PageNuevoProducto = () => {
 
     return (
         <>
-            <h1>Nuevo Producto</h1>
+            <h1>Agregar Producto</h1>
             <form onSubmit={handleSubmit}>
                 <label>Nombre</label>
                 <input type="text" id="nombre" name="nombre" onChange={(e)=>setNombre(e.target.value)} />

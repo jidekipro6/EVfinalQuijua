@@ -66,7 +66,7 @@ const NuevoVentaDetallePage = () => {
 
     return (
         <>
-            <h1>Nuevo Venta Detalle</h1>
+            <h1>Agregar detalle Venta </h1>
             <p>Total de la venta: {ventaTotal}</p> {/* Mostrar el total de la venta */}
             <form onSubmit={handleSubmit}>
                 <label htmlFor='ventas'>Venta</label>

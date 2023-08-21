@@ -21,14 +21,14 @@ public class DatabaseLoader implements CommandLineRunner {
     @Override
     public void run(String... strings) throws Exception {
         // Crear productos
-        Producto producto1 = new Producto("Producto 1", 10.0f);
-        Producto producto2 = new Producto("Producto 2", 20.0f);
+        Producto producto1 = new Producto("Maiz", 3.0f);
+        Producto producto2 = new Producto("Camote", 2.0f);
         repositoryP.save(producto1);
         repositoryP.save(producto2);
 
         // Crear ventas
-        Venta venta1 = new Venta(30.0f);
-        Venta venta2 = new Venta(40.0f);
+        Venta venta1 = new Venta(6.0f);
+        Venta venta2 = new Venta(6.0f);
         repositoryV.save(venta1);
         repositoryV.save(venta2);
 

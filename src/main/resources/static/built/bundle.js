@@ -41229,7 +41229,7 @@ var PageHome = /*#__PURE__*/function (_React$Component) {
         }
       }, /*#__PURE__*/React.createElement("div", {
         style: {
-          "width": "calc(100% / 3)"
+          "width": "calc(150% / 3)"
         }
       }, /*#__PURE__*/React.createElement(Titulo, {
         entidad: "ventas",
@@ -41238,9 +41238,9 @@ var PageHome = /*#__PURE__*/function (_React$Component) {
         ventas: this.state.ventas
       }), /*#__PURE__*/React.createElement(Link, {
         to: "/nueva-venta"
-      }, "Nueva venta")), /*#__PURE__*/React.createElement("div", {
+      }, "AGREGAR VENTA")), /*#__PURE__*/React.createElement("div", {
         style: {
-          "width": "calc(100% / 3)"
+          "width": "calc(150% / 3)"
         }
       }, /*#__PURE__*/React.createElement(Titulo, {
         entidad: "productos",
@@ -41249,9 +41249,9 @@ var PageHome = /*#__PURE__*/function (_React$Component) {
         productos: this.state.productos
       }), /*#__PURE__*/React.createElement(Link, {
         to: "/nuevo-producto"
-      }, "Nuevo Producto")), /*#__PURE__*/React.createElement("div", {
+      }, "AGREGAR PRODUCTO")), /*#__PURE__*/React.createElement("div", {
         style: {
-          "width": "calc(100% / 3)"
+          "width": "calc(150% / 3)"
         }
       }, /*#__PURE__*/React.createElement(Titulo, {
         entidad: "ventadetalles",
@@ -41260,7 +41260,7 @@ var PageHome = /*#__PURE__*/function (_React$Component) {
         ventadetalles: this.state.ventadetalles
       }), /*#__PURE__*/React.createElement(Link, {
         to: "/nuevo-detalleventa"
-      }, "Nuevo detelle de la venta"))));
+      }, "AGREGAR D.VENTA"))));
     }
   }]);
   return PageHome;
@@ -41446,7 +41446,7 @@ var PageNuevaVenta = function PageNuevaVenta() {
       window.location = '/';
     });
   };
-  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", null, "Nueva Venta"), /*#__PURE__*/React.createElement("form", {
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", null, "Agregar Venta"), /*#__PURE__*/React.createElement("form", {
     onSubmit: handleSubmit
   }, /*#__PURE__*/React.createElement("label", {
     htmlFor: "total"
@@ -41576,7 +41576,7 @@ var NuevoVentaDetallePage = function NuevoVentaDetallePage() {
       setProductos(productosData);
     });
   }, []);
-  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", null, "Nuevo Venta Detalle"), /*#__PURE__*/React.createElement("p", null, "Total de la venta: ", ventaTotal), " ", /*#__PURE__*/React.createElement("form", {
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", null, "Agregar detalle Venta "), /*#__PURE__*/React.createElement("p", null, "Total de la venta: ", ventaTotal), " ", /*#__PURE__*/React.createElement("form", {
     onSubmit: handleSubmit
   }, /*#__PURE__*/React.createElement("label", {
     htmlFor: "ventas"
@@ -41665,7 +41665,7 @@ var PageNuevoProducto = function PageNuevoProducto() {
       window.location = '/';
     });
   };
-  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", null, "Nuevo Producto"), /*#__PURE__*/React.createElement("form", {
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", null, "Agregar Producto"), /*#__PURE__*/React.createElement("form", {
     onSubmit: handleSubmit
   }, /*#__PURE__*/React.createElement("label", null, "Nombre"), /*#__PURE__*/React.createElement("input", {
     type: "text",

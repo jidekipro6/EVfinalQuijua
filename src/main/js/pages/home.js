@@ -25,20 +25,20 @@ class PageHome extends React.Component {
 				<h1>Ev Final Quijua</h1>
 
 				<div style={{"width": "100%", "display": "flex"}}>
-					<div style={{"width": "calc(100% / 3)"}}>
+					<div style={{"width": "calc(150% / 3)"}}>
 						<Titulo entidad="ventas" emoji="🛒" />
 						<VentasList ventas={this.state.ventas} />
-						<Link to="/nueva-venta">Nueva venta</Link>
+						<Link to="/nueva-venta">AGREGAR VENTA</Link>
 					</div>
-					<div style={{"width": "calc(100% / 3)"}}>
+					<div style={{"width": "calc(150% / 3)"}}>
 						<Titulo entidad="productos"emoji="🥔"  />
 						<ProductosList productos={this.state.productos} />
-						<Link to="/nuevo-producto">Nuevo Producto</Link>
+						<Link to="/nuevo-producto">AGREGAR PRODUCTO</Link>
 					</div>
-					<div style={{"width": "calc(100% / 3)"}}>
+					<div style={{"width": "calc(150% / 3)"}}>
 						<Titulo entidad="ventadetalles" emoji="🧾" />
 						<VentaDetalleList ventadetalles={this.state.ventadetalles} />
-						<Link to="/nuevo-detalleventa">Nuevo detelle de la venta</Link>
+						<Link to="/nuevo-detalleventa">AGREGAR D.VENTA</Link>
 					</div>
 				</div>
 

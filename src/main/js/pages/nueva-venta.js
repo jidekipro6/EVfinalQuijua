@@ -22,7 +22,7 @@ const PageNuevaVenta = () => {
 
     return (
         <>
-            <h1>Nueva Venta</h1>
+            <h1>Agregar Venta</h1>
             <form onSubmit={handleSubmit}>
             <label htmlFor='total'>total</label>
                 <input type="text" id="total" name="total" onChange={(e)=>setTotal(e.target.value)} />
